@@ -1,0 +1,1 @@
+@layer pf-overrides{.pf-story-data-grid-table-footer-footer-surface{border-radius:calc(var(--radius) - 2px);border-width:var(--group-layout-pf-size-hairline);background-color:hsl(var(--muted) / 40%)}}

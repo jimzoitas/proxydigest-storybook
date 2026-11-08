@@ -1,0 +1,1 @@
+@layer pf-overrides{.pf-story-context-menu-trigger{display:block;border-radius:calc(var(--radius) - 2px);border-width:var(--group-layout-pf-size-hairline);padding:var(--group-layout-pf-spacing-expansive)}}

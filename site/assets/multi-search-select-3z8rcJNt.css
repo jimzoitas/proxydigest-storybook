@@ -1,0 +1,1 @@
+@layer pf-overrides{.pf-story-multi-search-select-popup-frame{min-height:18rem;max-width:28rem}.pf-story-multi-search-select-popup-frame>:not([hidden])~:not([hidden]){margin-top:var(--group-layout-pf-spacing-regular);margin-bottom:var(--group-layout-pf-spacing-flush)}}

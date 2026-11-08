@@ -1,0 +1,1 @@
+import{Q as c}from"./apiUrl-CtX1NveE.js";const s="scores.scoring_attribute.ref_types,scores.score,scores.quick_feedback,tags.tag";function a(r,e){return r({url:c,params:{include:s},method:"POST",body:{name:e.name,text:e.text,tags:e.tags,formulaId:e.formulaId??null,projectId:e.projectId??null,scores:e.scores??[]},type:"quick_feedback"})}export{a as c};

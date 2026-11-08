@@ -1,0 +1,1 @@
+function o(n){for(let t=n.length-1;t>=0;t--){const l=n[t];if(l.role!=="assistant")continue;const e=l.meta?.llmGeneratedFormulaId;if(typeof e=="string")return e}return null}function r(n,t){return n.find(e=>e.role==="assistant"&&e.meta?.llmGeneratedFormulaId===t)?.meta?.interactionId??null}export{r as a,o as g};

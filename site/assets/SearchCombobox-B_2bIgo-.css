@@ -1,0 +1,1 @@
+@layer pf-overrides{.pf-story-search-combobox-preview{max-width:28rem}.pf-story-search-combobox-preview>:not([hidden])~:not([hidden]){margin-top:var(--group-layout-pf-spacing-regular);margin-bottom:var(--group-layout-pf-spacing-flush)}}

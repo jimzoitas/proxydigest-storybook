@@ -1,0 +1,1 @@
+@layer pf-overrides{.pf-story-ai-assistant-follows-context-frame{min-height:350px;max-width:48rem}.pf-story-ai-assistant-follows-context-frame>:not([hidden])~:not([hidden]){margin-top:var(--group-layout-pf-spacing-comfortable);margin-bottom:var(--group-layout-pf-spacing-flush)}}

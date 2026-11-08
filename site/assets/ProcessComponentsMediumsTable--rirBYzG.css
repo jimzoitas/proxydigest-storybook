@@ -1,0 +1,1 @@
+@layer pf-overrides{.pf-story-formula-process-components-mediums-table-table-frame{max-width:56rem;border-radius:calc(var(--radius) - 2px);border-width:var(--group-layout-pf-size-hairline);background-color:hsl(var(--muted));padding:var(--group-layout-pf-spacing-compact)}}

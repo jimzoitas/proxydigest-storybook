@@ -1,0 +1,1 @@
+var E=(r=>(r.CREATED="created",r.UPLOADED="uploaded",r.SCANNED="scanned",r.PUBLISHED="published",r.FAILED="failed",r))(E||{}),e=(r=>(r.PROJECT="project",r.RECIPE="recipe",r.NOTE="note",r.CONVERSATION="conversation",r))(e||{});export{e as A,E as U};

@@ -1,0 +1,1 @@
+const _={NAME:"allergen_name",MAY_CONTAIN:"may_contain"},e={NAME:"nutritional_fact_name",UNIT:"unit_symbol",AMOUNT:"nutritional_fact_amount",REFERENCE_AMOUNT:"reference_amount"},t={PRICE_PER_KG:"reference_price_per_kg",CURRENCY:"currency_code",SUPPLIER_TYPE:"supplier_type"},E={TABLE_ATTRIBUTE:"table_attribute",VALUE:"value",UNITS:"units"};export{_ as A,t as C,e as N,E as a};

@@ -1,0 +1,1 @@
+const o={frame:"pf-collection-layout__frame",page:"pf-collection-layout pf-collection-layout--page",embedded:"pf-collection-layout",table:"pf-collection-layout__table",viewport:"pf-collection-layout__viewport"};export{o as c};

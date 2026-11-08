@@ -1,0 +1,1 @@
+@layer pf-overrides{.pf-story-suppliers-suppliers-detail-view-detail-frame{max-width:800px;border-radius:calc(var(--radius) - 2px);border-width:var(--group-layout-pf-size-hairline);background-color:hsl(var(--background))}}

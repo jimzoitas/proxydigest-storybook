@@ -1,0 +1,1 @@
+@layer pf-pages{.pf-equipment-variables-section{display:flex;flex-direction:column;gap:var(--group-page-pf-spacing-tight);padding-bottom:var(--group-page-pf-spacing-comfortable);text-align:left}}@layer pf-pages{.pf-equipment-variable-actions{display:flex;justify-content:flex-end;gap:var(--group-page-pf-spacing-compact)}}

@@ -1,0 +1,1 @@
+@layer pf-overrides{.pf-story-status-indicator-controls{display:flex;flex-wrap:wrap;align-items:center;gap:var(--group-layout-pf-spacing-regular)}}

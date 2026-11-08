@@ -1,0 +1,1 @@
+@layer pf-overrides{.pf-story-data-grid-numeric-range-filter-filter-frame{width:var(--size-filter-panel);border-radius:var(--radius-surface);border-width:var(--stroke-hairline);border-color:var(--border-default);background-color:var(--bg-surface)}.pf-story-data-grid-numeric-range-filter-actions{display:flex;align-items:center;gap:var(--space-inline-sm)}}

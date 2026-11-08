@@ -1,0 +1,1 @@
+@layer pf-overrides{.pf-story-ai-assistant-conversation-navigation-frame{display:flex;min-height:280px;flex-direction:column;gap:var(--group-layout-pf-spacing-comfortable)}.pf-story-ai-assistant-conversation-navigation-header{display:flex;align-items:center;justify-content:space-between;gap:var(--group-layout-pf-spacing-comfortable)}}

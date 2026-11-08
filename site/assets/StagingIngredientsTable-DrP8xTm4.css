@@ -1,0 +1,1 @@
+@layer pf-overrides{.pf-story-ingredients-staging-ingredients-table-review-frame{background-color:hsl(var(--muted) / 30%);padding:var(--group-layout-pf-spacing-spacious);text-align:left}}@layer pf-pages{.pf-cdi-staging-table-surface{background-color:var(--group-page-color-fill-canvas-neutral)}.pf-cdi-staging-table-container{padding-bottom:var(--group-page-pf-spacing-compact)}}

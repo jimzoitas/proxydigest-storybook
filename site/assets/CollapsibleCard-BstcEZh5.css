@@ -1,0 +1,1 @@
+@layer pf-overrides{.pf-story-collapsible-card-preview{width:100%;max-width:36rem}.pf-story-collapsible-card-preview>:not([hidden])~:not([hidden]){margin-top:var(--group-layout-pf-spacing-regular);margin-bottom:var(--group-layout-pf-spacing-flush)}}

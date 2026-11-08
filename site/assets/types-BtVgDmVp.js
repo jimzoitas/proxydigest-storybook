@@ -1,0 +1,7 @@
+const s="__overview__",a="__all_sections__",c={[s]:"Overview",[a]:"All Sections",productConcept:"Product Concept",targetMarket:"Target Market",keyIngredients:"Key Ingredients",flavorProfile:"Flavor Profile",packagingConsiderations:"Packaging Considerations",uniqueSellingPoints:"Unique Selling Points",briefDeconstruction:"Summary",shortDescription:"Short Description",competitorProductLandscape:"Competitor Product Landscape",ingredientSupplierCoManSearch:"Ingredient, Supplier & Co-Man Search",regulatoryCheck:"Regulatory Check",scientificLiteratureScan:"Scientific Literature Scan",appendix:"Appendix"};function f(t){return c[t]?c[t]:t.replace(/([a-z])([A-Z])/g,"$1 $2").split(/[_ ]+/).map(e=>e.charAt(0).toUpperCase()+e.slice(1)).join(" ")}function d(t){return t?Array.isArray(t)?t:"sections"in t&&Array.isArray(t.sections)?t.sections:Object.entries(t).filter(([e])=>e!=="title"&&e!=="short_description"&&e!=="shortDescription").map(([e,n])=>({title:e,content:n})):[]}function S(t){const e=d(t);if(!e.length)return[];const n=e;if(!n.length)return[];const l=n.find(i=>i.title==="brief_deconstruction"||i.title==="briefDeconstruction"),r={title:s,content:l?.content??""},o=n.filter(i=>i.title!=="brief_deconstruction"&&i.title!=="briefDeconstruction"),u=[r,...o].filter(i=>i.content?.trim()).map(i=>`## ${f(i.title)}
+
+${i.content}`).join(`
+
+---
+
+`),p={title:a,content:u};return[r,...o,p]}export{S as b,f,d as g};

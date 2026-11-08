@@ -1,0 +1,1 @@
+const p={kind:"clone"},O=(n,e,l=!1,t=!0)=>{const o=n==="edit"&&l&&e&&t?k:s[n];return e?o:o.filter(i=>!r(i))},r=n=>n==="relink"||n==="relinkRoot",s={clone:["only","relink"],applyProposal:["update","only","relink"],edit:["only","relink","update"]},k=["relinkRoot","relink","update"];export{p as C,O as g,r as i};

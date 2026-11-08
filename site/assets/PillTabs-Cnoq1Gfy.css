@@ -1,0 +1,1 @@
+@layer pf-overrides{.pf-story-pill-tabs-tab-content{border-radius:.25rem;border-width:var(--group-layout-pf-size-hairline);padding:var(--group-layout-pf-spacing-comfortable)}.pf-story-pill-tabs-count{margin-left:var(--group-layout-pf-spacing-tight);font-size:var(--group-typography-pf-font-size-tiny);line-height:var(--group-layout-pf-line-height-fixed-small)}}

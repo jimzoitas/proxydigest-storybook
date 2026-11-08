@@ -1,0 +1,1 @@
+@layer pf-components{.pf-recalculation-icon{animation:scale-pulse var(--group-feedback-pf-motion-sparkle-duration) var(--group-feedback-pf-motion-ease-smooth) infinite,proxy-color-shift var(--group-feedback-pf-motion-color-duration) var(--group-feedback-pf-motion-ease-smooth) infinite}}

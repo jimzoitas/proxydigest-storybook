@@ -1,0 +1,1 @@
+@layer pf-overrides{.pf-story-resizable-frame{height:16rem}.pf-story-resizable-panel{border-radius:calc(var(--radius) - 2px);border-width:var(--group-layout-pf-size-hairline)}}

@@ -1,0 +1,1 @@
+@layer pf-overrides{.pf-story-ai-assistant-message-selection-toolbar-frame{display:grid;max-width:42rem;gap:var(--group-layout-pf-spacing-roomy)}.pf-story-ai-assistant-message-selection-toolbar-message{border-radius:var(--radius);border-width:var(--group-layout-pf-size-hairline);padding:var(--group-layout-pf-spacing-comfortable)}}

@@ -1,0 +1,1 @@
+const p=["USD","EUR"],s=["retail","wholesale"],t={retail:"cdi.step4.supplierTypeOptions.retail",wholesale:"cdi.step4.supplierTypeOptions.wholesale"};function r(){return p.map(e=>({id:e,descr:e}))}function n(e){return s.map(i=>({id:i,descr:e(t[i])}))}export{n as a,r as b};

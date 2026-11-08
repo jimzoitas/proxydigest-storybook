@@ -1,0 +1,1 @@
+@layer pf-pages{.pf-specification-page-loading{width:100%;margin-right:auto;margin-left:auto;display:grid;height:var(--group-page-pf-size-measure-scroll-fixed);place-items:center;padding:var(--group-page-pf-spacing-comfortable)}@media(min-width:1400px){.pf-specification-page-loading{max-width:var(--group-page-pf-size-viewport-wide-fixed)}}}

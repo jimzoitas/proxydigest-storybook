@@ -1,0 +1,1 @@
+const $=(r,e)=>r===0?"0":e==="mcg"&&r>=1e3?`${(r/1e3).toFixed(2)} mg`:e==="mg"&&r>=1e3?`${(r/1e3).toFixed(2)} g`:r<.01?`${r.toFixed(3)} ${e}`:r<.1?`${r.toFixed(2)} ${e}`:r<10?`${r.toFixed(2)} ${e}`:r<100?`${r.toFixed(1)} ${e}`:`${r.toFixed(0)} ${e}`,d=(r,e)=>r.reduce((t,o)=>t+(e&&!o?2:1),0);export{d as c,$ as f};

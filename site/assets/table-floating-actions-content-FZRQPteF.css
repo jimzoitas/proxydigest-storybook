@@ -1,0 +1,1 @@
+@layer pf-overrides{.pf-story-data-grid-table-floating-actions-content-content{display:flex;height:100%;flex-direction:column;gap:var(--group-layout-pf-spacing-regular)}}

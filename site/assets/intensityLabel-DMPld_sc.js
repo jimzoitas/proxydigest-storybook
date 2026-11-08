@@ -1,0 +1,1 @@
+const t=(e,n)=>e==null?"":e<=3?n("sections.organoleptic.intensityLevels.veryWeak"):e<=6?n("sections.organoleptic.intensityLevels.weak"):e<=9?n("sections.organoleptic.intensityLevels.moderate"):e<=12?n("sections.organoleptic.intensityLevels.strong"):n("sections.organoleptic.intensityLevels.veryStrong");export{t as g};

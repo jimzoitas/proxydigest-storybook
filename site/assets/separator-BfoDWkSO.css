@@ -1,0 +1,1 @@
+@layer pf-components{.pf-separator{flex-shrink:0;background-color:var(--group-layout-color-fill-divider)}.pf-separator[data-orientation=horizontal]{height:var(--group-layout-pf-size-hairline);width:100%}.pf-separator[data-orientation=vertical]{height:100%;width:var(--group-layout-pf-size-hairline)}}

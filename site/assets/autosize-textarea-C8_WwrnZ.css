@@ -1,0 +1,1 @@
+@layer pf-overrides{.pf-story-autosize-textarea-preview{display:grid;width:100%;max-width:36rem;gap:var(--group-layout-pf-spacing-regular)}}

@@ -1,0 +1,1 @@
+@layer pf-overrides{.pf-story-collection-table-content{height:100%;padding-left:var(--group-layout-pf-spacing-comfortable);padding-right:var(--group-layout-pf-spacing-comfortable);padding-bottom:var(--group-layout-pf-spacing-comfortable)}.pf-story-collection-table-table-viewport{max-height:calc(100vh - 5rem);padding-bottom:var(--group-layout-pf-spacing-compact)}}

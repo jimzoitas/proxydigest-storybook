@@ -1,0 +1,1 @@
+@layer pf-components{.pf-label{font-size:var(--group-input-pf-font-size-label);line-height:var(--group-input-pf-line-height-tight);font-weight:var(--group-input-pf-font-weight-label)}.peer:disabled~.pf-label{cursor:not-allowed;opacity:var(--group-input-pf-opacity-disabled-label);color:var(--group-input-color-text-disabled-foreground)}}

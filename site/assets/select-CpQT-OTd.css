@@ -1,0 +1,1 @@
+@layer pf-overrides{.pf-story-select-preview{width:16rem}.pf-story-select-preview:has(.pf-field-presentation){width:min(100%,28rem)}}

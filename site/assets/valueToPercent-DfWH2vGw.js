@@ -1,0 +1,1 @@
+function o(r){return Array.isArray(r)?r.map(t=>o(t)).join(","):r==null?"":String(r)}const i=new Map;function f(r,t){const n=JSON.stringify({locale:o(r),options:t}),e=i.get(n);if(e)return e;const u=new Intl.NumberFormat(r,t);return i.set(n,u),u}function a(r,t,n){return r==null?"":f(t,n).format(r)}function c(r,t,n){return(r-t)*100/(n-t)}export{a as f,c as v};

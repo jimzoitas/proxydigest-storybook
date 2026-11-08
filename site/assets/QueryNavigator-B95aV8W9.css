@@ -1,0 +1,1 @@
+@layer pf-overrides{.pf-story-ai-assistant-query-navigator-viewport{display:flex;height:100vh;width:100%;align-items:center;justify-content:flex-end;background-color:hsl(var(--background));padding-right:var(--group-layout-pf-spacing-tight)}}

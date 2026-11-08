@@ -1,0 +1,1 @@
+@layer pf-overrides{.pf-story-ai-assistant-reference-details-frame{min-height:350px}.pf-story-ai-assistant-reference-details-frame>:not([hidden])~:not([hidden]){margin-top:var(--group-layout-pf-spacing-regular);margin-bottom:var(--group-layout-pf-spacing-flush)}.pf-story-ai-assistant-reference-details-trigger{background-color:hsl(var(--muted));color:hsl(var(--muted-foreground))}}

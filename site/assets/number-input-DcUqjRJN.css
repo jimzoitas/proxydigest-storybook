@@ -1,0 +1,1 @@
+@layer pf-overrides{.pf-story-number-field-preview{max-width:24rem}.pf-story-number-field-preview>:not([hidden])~:not([hidden]){margin-top:var(--group-layout-pf-spacing-regular);margin-bottom:var(--group-layout-pf-spacing-flush)}}
