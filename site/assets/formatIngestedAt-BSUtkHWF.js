@@ -1,1 +1,0 @@
-import{aS as a,aT as e,M as n}from"./iframe-BXubdNpd.js";const o="dd MMM yyyy, HH:mm";function m(r){if(!r)return null;try{return a(e(r),o)}catch(t){return n.error("[formatIngestedAt] Bad date",r,t),null}}export{m as f};

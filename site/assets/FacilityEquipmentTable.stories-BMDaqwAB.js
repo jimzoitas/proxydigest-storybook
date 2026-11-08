@@ -1,0 +1,58 @@
+import{j as s,i as u}from"./iframe-6uZ_OvXJ.js";import{F as E,T as h}from"./FacilityEquipmentTable-BOZbfee8.js";import{f as F,t as p,r as x,w as y,m as g}from"./facilitiesStoryFixtures-Bh6HhYX8.js";import"./preload-helper-PPVm8Dsz.js";import"./table-core-BKa6p28B.js";import"./table-body-DAAwceml.js";import"./table-CxmeLn9K.js";import"./row-context-menu-eYOAD9f5.js";import"./context-menu-CQ8VtaHB.js";import"./menu-BB0nZVv8.js";import"./CompositeItem-DiKjTF7g.js";import"./useCompositeItem-CEgqY0th.js";import"./Separator-UJ0jSiK3.js";import"./chevron-right-DQAu3Wv6.js";import"./circle-BOSVkkPm.js";import"./helpers-Bv26rxH5.js";import"./table-footer-CnmAOHQy.js";import"./button-A8HzViyP.js";import"./index-BIEDR5QJ.js";import"./loader-circle-DPzNQWfU.js";import"./chevrons-right-BhJPoqIC.js";import"./chevron-left-ByPwEqFW.js";import"./table-header-T_FgDZ52.js";import"./dropdown-menu-CH01PJiV.js";import"./arrow-up-DejSgtne.js";import"./arrow-down-LFNtcj0H.js";import"./arrow-up-down-lGFirNY0.js";import"./eye-off-BWZ1kMBz.js";import"./panel-left-CatA2Q48.js";import"./panel-right-Bw6XECzh.js";import"./pin-off-BFmEXCuD.js";import"./ellipsis-BdoQ7bBK.js";import"./table-cell-view-DxB_DPle.js";import"./table-BkUZ_KQS.js";import"./index-CEZdZdBw.js";import"./index-DRlY9EGU.js";import"./table-cell-edit-DFj-hTEz.js";import"./input-xqFXePlz.js";import"./index.module-Db1hQFPV.js";import"./textarea-BIg20vtR.js";import"./output-ingredient-cell-CpP8xia2.js";import"./provider-CyKcivnd.js";import"./v4-EwEgHOG0.js";import"./IngredientModalTrigger-CUmH2jzr.js";import"./tooltip-core-Ddkl4sOF.js";import"./file-text-nCD9I8Xm.js";import"./use-api-VM36FeDn.js";import"./jsonApiHandler-DHxZXfLw.js";import"./request-BbyBNZg4.js";import"./trackPosthogEvent-fthYs4K3.js";import"./apiUrl-o8N8i6mn.js";import"./component-name-with-external-id-CYAABj69.js";import"./ingredientExternalId-ACOjU166.js";import"./number-field-Ru33oSuc.js";import"./component-ingredient-cell-DdSZOunt.js";import"./GlobalSearchModal-Lf0syAO-.js";import"./dialog-DnvpmbSS.js";import"./overlay-dialog-_C1niahL.js";import"./index.es-z8489JTU.js";import"./use-paginated-api-CWOeq5kV.js";import"./skeleton-Bu9j_NfJ.js";import"./toggle-group-C1nrCotT.js";import"./roving-focus-0SK5-Aqb.js";import"./CompositeRoot-Av_o_W_V.js";import"./cooking-pot-D_JNOFZA.js";import"./badge-BfEYvfQV.js";import"./file-spreadsheet-BAZ-hhIc.js";import"./SearchByConfig-D5iGJPAi.js";import"./search-combobox-wrapper-BvBJnliu.js";import"./search-combobox-base-Des8xucS.js";import"./chevrons-up-down-pYK2jq1f.js";import"./search-combobox-server-EQthR1mJ.js";import"./plus-CjxSM-tB.js";import"./useFocusNextColumn-BcynM7fv.js";import"./check-check-Ijw77S4O.js";import"./initial-ingredient-cell-lNUS-4SE.js";import"./multi-select-cell-BDyT88Np.js";import"./circle-alert-COabV-gQ.js";import"./truncated-markdown-Daly1fWN.js";import"./encodeBlobUrl-FLx_wV7M.js";import"./document-mention-DCvCKHlM.js";import"./markdown-table-Dwdj6C-H.js";import"./table-cell-sizing-9Qu5gc3X.js";import"./index-C6UO2wHL.js";import"./index-D-ztsl9H.js";import"./index-DDxzgSdf.js";import"./index-8G61PpGJ.js";import"./use-text-truncation-C64XvJm-.js";import"./table-checkbox-B5t9uFls.js";import"./checkbox-CzlPmnCo.js";import"./minus-CKlNa8RO.js";import"./useAriaLabelledBy-BKgySVsG.js";import"./table-legend-6b-mh4oF.js";import"./columns-3-BysvKPzv.js";import"./eye-IP_HpB_J.js";import"./table-floating-actions-content-COOWNIQ7.js";import"./table-floating-actions-BSrk0U4J.js";import"./proxy-B45Ty6wS.js";import"./loader-Bg7nZ-Jd.js";import"./download-CFtDxXnS.js";import"./trash-2-BanePgH0.js";import"./separator-CkvihxIh.js";import"./form-DEF3hMXI.js";import"./label-ccPiVmVc.js";import"./sonner-CZxmX36P.js";import"./icons-C5dxDifF.js";import"./collapsible-D5z7BIl8.js";import"./useCollapsiblePanel-CEEvXl-2.js";import"./table-empty-state-BfFrYSIS.js";import"./proxy-ai-CS5Wnpgd.js";import"./SidebarSection-texb4wwO.js";import"./ExpandableTextTrigger-CtaP99rt.js";import"./search-field-BYGbCLxi.js";import"./sheet-024fQP7m.js";import"./link-NVJJzIw5.js";import"./GradientButton-DYiJN-S0.js";import"./input-field-B_Y4AWYp.js";import"./GradientIcon-BcoxLprl.js";import"./InfoAlert-jeYOeLpI.js";import"./circle-x-BOcBs_hd.js";import"./circle-check-big-BhjVcHh1.js";import"./triangle-alert-B_zFvblH.js";import"./info-BfHyHFxU.js";import"./EmptyState-CE5-KyxB.js";import"./StatusIndicator-ENElgtKP.js";import"./QuickActionCard-BQt3A_CC.js";import"./search-x-C9Cm6nWw.js";import"./chip-list-cell-BI8erZlC.js";import"./faceted-filter-Bc-gkxm-.js";import"./accordion-DuKcutha.js";import"./circle-plus-CBh8aV2x.js";import"./server-side-faceted-filter-DCVmIQPz.js";import"./tree-faceted-filter-DBnSkNXH.js";import"./index-BQqMskN1.js";import"./folder-DCi5xMtm.js";import"./box-DT1itMff.js";import"./list-chevrons-up-down-5h4Yy5eO.js";import"./numeric-range-filter-DI-45b61.js";import"./date-time-filter-rg_4m4PW.js";import"./calendar-BzrEEUDg.js";import"./calendar-DKRUQDR1.js";import"./server-date-time-filter-DiS8fm5Z.js";import"./delete-buttons-Cf1FhHmc.js";import"./pencil-Dx2daJ7d.js";import"./dialog-core-BISqHcOb.js";/* empty css                            */import"./cancel-button-BfNL7fGz.js";import"./reset-filters-button-CiT8sq-9.js";import"./EquipmentSourceBadge-DvkoFiiH.js";import"./globe-Cx9ESZ5K.js";import"./factory-B6pYZqD4.js";import"./equipmentStoryFixtures-C1MsekO5.js";const{expect:c,userEvent:w,waitFor:f,within:b}=__STORYBOOK_MODULE_TEST__,q=p(x),wo={title:"Product examples/Facilities/Facility Form/FacilityEquipmentTable",id:"modules-facilities-facility-form-facilityequipmenttable",component:E,tags:["autodocs"],decorators:[t=>s.jsx(h,{children:s.jsx("div",{className:"pf-story-facilities-facility-equipment-table-table-frame",children:s.jsx(t,{})})})],parameters:{layout:"padded",store:{preloadedState:{facilities:{equipments:q,facilityFormEquipments:q}}},msw:{handlers:[F]},docs:{description:{component:"Editable equipment sub-table of the facility form: equipment combobox rows (`GET /equipment?include=process_types`, scoped by the “Equipment Universe” Proxy / Organization source filter in the header), read-only process types and source badge, row edit / cancel / delete and an “Add equipment” button; rows and errors are mirrored to `facilities.facilityFormEquipments` / `equipmentsErrors`. 1 importer: `src/modules/Facilities/FacilityForm/FacilityFormFields.tsx`. Source: `src/modules/Facilities/FacilityForm/FacilityEquipment/FacilityEquipmentTable.tsx`."}}},args:{isEditable:!0},argTypes:{isEditable:{control:"boolean"}}},i={play:async({canvasElement:t})=>{const n=b(t);await c(await n.findByText("List equipments")).toBeInTheDocument()}},o={parameters:{store:{preloadedState:{facilities:{equipments:[],facilityFormEquipments:[]}}}}},r={parameters:{store:{preloadedState:{facilities:{equipments:p(y),facilityFormEquipments:p(y)}}}}},e={args:{isEditable:!1},parameters:{store:{preloadedState:{facilities:{equipments:p(g)}}}}},a={play:async({canvasElement:t})=>{const n=b(t),m=()=>t.querySelectorAll("tbody tr");await n.findByText(u.t("facilities:equipment.addRowButton"));const l=m().length;await w.click(n.getByText(u.t("facilities:equipment.addRowButton"))),await f(()=>c(m()).toHaveLength(l+1));const d=t.querySelector("tbody svg.lucide-x")?.closest("button");if(!d)throw new Error("Cancel button of the new row not found");await w.click(d),await f(()=>c(m()).toHaveLength(l))}};i.parameters={...i.parameters,docs:{...i.parameters?.docs,source:{originalSource:`{
+  play: async ({
+    canvasElement
+  }) => {
+    const canvas = within(canvasElement);
+    await expect(await canvas.findByText("List equipments")).toBeInTheDocument();
+  }
+}`,...i.parameters?.docs?.source},description:{story:"In the facility form: the pilot plant's extruder, homogeniser and spray dryer with Proxy / Organization badges.",...i.parameters?.docs?.description}}};o.parameters={...o.parameters,docs:{...o.parameters?.docs,source:{originalSource:`{
+  parameters: {
+    store: {
+      preloadedState: {
+        facilities: {
+          equipments: [],
+          facilityFormEquipments: []
+        }
+      }
+    }
+  }
+}`,...o.parameters?.docs?.source},description:{story:'A new facility: only the header, the source filter and the "Add equipment" button.',...o.parameters?.docs?.description}}};r.parameters={...r.parameters,docs:{...r.parameters?.docs,source:{originalSource:`{
+  parameters: {
+    store: {
+      preloadedState: {
+        facilities: {
+          equipments: toEquipmentRows(wisconsinCoMan),
+          facilityFormEquipments: toEquipmentRows(wisconsinCoMan)
+        }
+      }
+    }
+  }
+}`,...r.parameters?.docs?.source},description:{story:"A co-manufacturer equipped entirely from the Proxy library.",...r.parameters?.docs?.description}}};e.parameters={...e.parameters,docs:{...e.parameters?.docs,source:{originalSource:`{
+  args: {
+    isEditable: false
+  },
+  parameters: {
+    store: {
+      preloadedState: {
+        facilities: {
+          equipments: toEquipmentRows(munichRdKitchen)
+        }
+      }
+    }
+  }
+}`,...e.parameters?.docs?.source},description:{story:"`isEditable` false: plain rows without the header, source filter, add button or actions column.",...e.parameters?.docs?.description}}};a.parameters={...a.parameters,docs:{...a.parameters?.docs,source:{originalSource:`{
+  play: async ({
+    canvasElement
+  }) => {
+    const canvas = within(canvasElement);
+    const bodyRows = () => canvasElement.querySelectorAll("tbody tr");
+    await canvas.findByText(i18n.t("facilities:equipment.addRowButton"));
+    const initialCount = bodyRows().length;
+    await userEvent.click(canvas.getByText(i18n.t("facilities:equipment.addRowButton")));
+    await waitFor(() => expect(bodyRows()).toHaveLength(initialCount + 1));
+    const cancelButton = canvasElement.querySelector("tbody svg.lucide-x")?.closest("button");
+    if (!cancelButton) throw new Error("Cancel button of the new row not found");
+    await userEvent.click(cancelButton);
+    await waitFor(() => expect(bodyRows()).toHaveLength(initialCount));
+  }
+}`,...a.parameters?.docs?.source},description:{story:'"Add equipment" opens an editable row; its cancel button removes it again.',...a.parameters?.docs?.description}}};const fo=["InFacilityForm","NewFacilityEmpty","ProxyLibraryEquipment","ReadOnly","AddAndCancelRow"];export{a as AddAndCancelRow,i as InFacilityForm,o as NewFacilityEmpty,r as ProxyLibraryEquipment,e as ReadOnly,fo as __namedExportsOrder,wo as default};

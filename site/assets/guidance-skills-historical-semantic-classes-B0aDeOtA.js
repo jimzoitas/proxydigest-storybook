@@ -1,5 +1,0 @@
-import{j as e,au as r,aw as i}from"./iframe-BXubdNpd.js";import{useMDXComponents as o}from"./index-vkJokoRU.js";import{a,s as c}from"./skill-document-CalocFIo.js";import"./preload-helper-PPVm8Dsz.js";function n(s){const t={code:"code",p:"p",...o(),...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(r,{title:"Guidance/Skills/Historical/Semantic Classes"}),`
-`,e.jsx(t.p,{children:"Historical instructions, retained for context. This workflow is superseded by the current Create Token and Systemize Repo skills: use Base UI, authored CSS and category-owned group tokens. Do not apply these old utility-class instructions."}),`
-`,e.jsxs(t.p,{children:["Source: ",e.jsx(t.code,{children:".claude/skills/wip-token-refactor/references/semantic-classes.md"}),"."]}),`
-`,e.jsx("a",{href:"./?path=/docs/guidance-skills-overview--docs",target:"_top",children:"Skills overview"}),`
-`,e.jsx(i,{options:c,children:a(".claude/skills/wip-token-refactor/references/semantic-classes.md")})]})}function m(s={}){const{wrapper:t}={...o(),...s.components};return t?e.jsx(t,{...s,children:e.jsx(n,{...s})}):n(s)}export{m as default};

@@ -1,0 +1,5 @@
+import{j as e,au as i,aw as r}from"./iframe-6uZ_OvXJ.js";import{useMDXComponents as s}from"./index-D1Iyl5ZL.js";import{a as c,s as l}from"./skill-document-FipH1P8s.js";import"./preload-helper-PPVm8Dsz.js";function t(n){const o={code:"code",p:"p",...s(),...n.components};return e.jsxs(e.Fragment,{children:[e.jsx(i,{title:"Guidance/Skills/Build UI"}),`
+`,e.jsx(o.p,{children:"Complete repository-owned instructions. Current user instructions and root/nested repository guidance take precedence. Inclusion here does not claim that this workflow or all its checks have been executed."}),`
+`,e.jsxs(o.p,{children:["Source: ",e.jsx(o.code,{children:"skills/build-ui/SKILL.md"}),"."]}),`
+`,e.jsx("a",{href:"./?path=/docs/guidance-skills-overview--docs",target:"_top",children:"Skills overview"}),`
+`,e.jsx(r,{options:l,children:c("skills/build-ui/SKILL.md")})]})}function p(n={}){const{wrapper:o}={...s(),...n.components};return o?e.jsx(o,{...n,children:e.jsx(t,{...n})}):t(n)}export{p as default};

@@ -1,0 +1,9 @@
+import{j as e}from"./iframe-6uZ_OvXJ.js";/* empty css                      */import{S as n}from"./StatusIndicator-ENElgtKP.js";import"./preload-helper-PPVm8Dsz.js";const i=["default","success","warning","error","info","muted","gradient"],p={title:"Components/Feedback/Status indicator",component:n,tags:["autodocs"],parameters:{docs:{description:{component:"The product's compact pill status treatment. Seven variants and two sizes are public API, including the existing agentic gradient. It renders a noninteractive span, not a live region; use explicit status text rather than color alone. It is distinct from ui/Badge, which has a different variant contract."}},controls:{include:["children","variant","size"]}},args:{children:"In progress",variant:"default",size:"sm"},argTypes:{children:{control:"text"},variant:{control:"select",options:i},size:{control:"inline-radio",options:["sm","md"]}}},t={},a={render:()=>e.jsx("div",{className:"pf-story-stack",children:["sm","md"].map(s=>e.jsx("div",{className:"pf-story-status-indicator-controls",children:i.map(r=>e.jsxs(n,{size:s,variant:r,children:[r," · ",s]},r))},s))})};t.parameters={...t.parameters,docs:{...t.parameters?.docs,source:{originalSource:"{}",...t.parameters?.docs?.source}}};a.parameters={...a.parameters,docs:{...a.parameters?.docs,source:{originalSource:`{
+  render: () => <div className="pf-story-stack">
+      {(["sm", "md"] as const).map(size => <div key={size} className="pf-story-status-indicator-controls">
+          {variants.map(variant => <StatusIndicator key={variant} size={size} variant={variant}>
+              {variant} · {size}
+            </StatusIndicator>)}
+        </div>)}
+    </div>
+}`,...a.parameters?.docs?.source}}};const l=["Playground","VariantsAndSizes"];export{t as Playground,a as VariantsAndSizes,l as __namedExportsOrder,p as default};

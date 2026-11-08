@@ -1,5 +1,0 @@
-import{j as e,au as i,aw as r}from"./iframe-BXubdNpd.js";import{useMDXComponents as o}from"./index-vkJokoRU.js";import{a as c,s as l}from"./skill-document-CalocFIo.js";import"./preload-helper-PPVm8Dsz.js";function t(s){const n={code:"code",p:"p",...o(),...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(i,{title:"Guidance/Skills/References/Accessibility"}),`
-`,e.jsx(n.p,{children:"Complete repository-owned instructions. Current user instructions and root/nested repository guidance take precedence. Inclusion here does not claim that this workflow or all its checks have been executed."}),`
-`,e.jsxs(n.p,{children:["Source: ",e.jsx(n.code,{children:"skills/systemize-repo/references/accessibility.md"}),"."]}),`
-`,e.jsx("a",{href:"./?path=/docs/guidance-skills-overview--docs",target:"_top",children:"Skills overview"}),`
-`,e.jsx(r,{options:l,children:c("skills/systemize-repo/references/accessibility.md")})]})}function u(s={}){const{wrapper:n}={...o(),...s.components};return n?e.jsx(n,{...s,children:e.jsx(t,{...s})}):t(s)}export{u as default};

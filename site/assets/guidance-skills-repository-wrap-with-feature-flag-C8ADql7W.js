@@ -1,5 +1,0 @@
-import{j as e,au as r,aw as i}from"./iframe-BXubdNpd.js";import{useMDXComponents as s}from"./index-vkJokoRU.js";import{a,s as c}from"./skill-document-CalocFIo.js";import"./preload-helper-PPVm8Dsz.js";function o(t){const n={code:"code",p:"p",...s(),...t.components};return e.jsxs(e.Fragment,{children:[e.jsx(r,{title:"Guidance/Skills/Repository/Wrap With Feature Flag"}),`
-`,e.jsx(n.p,{children:"Complete repository-owned instructions. Current user instructions and root/nested repository guidance take precedence. Inclusion here does not claim that this workflow or all its checks have been executed."}),`
-`,e.jsxs(n.p,{children:["Source: ",e.jsx(n.code,{children:".claude/skills/wrap-with-feature-flag/SKILL.md"}),"."]}),`
-`,e.jsx("a",{href:"./?path=/docs/guidance-skills-overview--docs",target:"_top",children:"Skills overview"}),`
-`,e.jsx(i,{options:c,children:a(".claude/skills/wrap-with-feature-flag/SKILL.md")})]})}function m(t={}){const{wrapper:n}={...s(),...t.components};return n?e.jsx(n,{...t,children:e.jsx(o,{...t})}):o(t)}export{m as default};

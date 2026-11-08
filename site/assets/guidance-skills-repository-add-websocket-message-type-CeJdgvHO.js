@@ -1,0 +1,5 @@
+import{j as e,au as r,aw as i}from"./iframe-6uZ_OvXJ.js";import{useMDXComponents as n}from"./index-D1Iyl5ZL.js";import{a as c,s as a}from"./skill-document-FipH1P8s.js";import"./preload-helper-PPVm8Dsz.js";function o(s){const t={code:"code",p:"p",...n(),...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(r,{title:"Guidance/Skills/Repository/Add WebSocket Message Type"}),`
+`,e.jsx(t.p,{children:"Complete repository-owned instructions. Current user instructions and root/nested repository guidance take precedence. Inclusion here does not claim that this workflow or all its checks have been executed."}),`
+`,e.jsxs(t.p,{children:["Source: ",e.jsx(t.code,{children:".claude/skills/add-websocket-message-type/SKILL.md"}),"."]}),`
+`,e.jsx("a",{href:"./?path=/docs/guidance-skills-overview--docs",target:"_top",children:"Skills overview"}),`
+`,e.jsx(i,{options:a,children:c(".claude/skills/add-websocket-message-type/SKILL.md")})]})}function m(s={}){const{wrapper:t}={...n(),...s.components};return t?e.jsx(t,{...s,children:e.jsx(o,{...s})}):o(s)}export{m as default};
