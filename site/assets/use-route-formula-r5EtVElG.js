@@ -1,1 +1,0 @@
-import{a as e,cd as m}from"./iframe-AqpYXns4.js";import{u as l}from"./use-current-module-hqtS5qxe.js";function f(){const{formula:o}=e(m),{isFormula:r,formulaMatch:a,projectFormulaMatch:u}=l(),t=a?.params.formulaId??u?.params.formulaId;return r&&o&&o.id===t?o:void 0}export{f as u};

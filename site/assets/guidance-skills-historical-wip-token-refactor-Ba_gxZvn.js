@@ -1,0 +1,5 @@
+import{j as e,au as r,aw as i}from"./iframe-BXubdNpd.js";import{useMDXComponents as n}from"./index-vkJokoRU.js";import{a,s as c}from"./skill-document-CalocFIo.js";import"./preload-helper-PPVm8Dsz.js";function s(o){const t={code:"code",p:"p",...n(),...o.components};return e.jsxs(e.Fragment,{children:[e.jsx(r,{title:"Guidance/Skills/Historical/WIP Token Refactor"}),`
+`,e.jsx(t.p,{children:"Historical instructions, retained for context. This workflow is superseded by the current Create Token and Systemize Repo skills: use Base UI, authored CSS and category-owned group tokens. Do not apply these old utility-class instructions."}),`
+`,e.jsxs(t.p,{children:["Source: ",e.jsx(t.code,{children:".claude/skills/wip-token-refactor/SKILL.md"}),"."]}),`
+`,e.jsx("a",{href:"./?path=/docs/guidance-skills-overview--docs",target:"_top",children:"Skills overview"}),`
+`,e.jsx(i,{options:c,children:a(".claude/skills/wip-token-refactor/SKILL.md")})]})}function m(o={}){const{wrapper:t}={...n(),...o.components};return t?e.jsx(t,{...o,children:e.jsx(s,{...o})}):s(o)}export{m as default};

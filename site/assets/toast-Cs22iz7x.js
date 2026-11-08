@@ -1,1 +1,0 @@
-import{bw as o}from"./iframe-AqpYXns4.js";import{a as n}from"./trackPosthogEvent-D3YuMJXm.js";const a=(r,t)=>(n("error_toast_shown",{message:typeof r=="string"?r:void 0,url:window.location.href}),o.error(r,t)),f=new Proxy(o,{get(r,t,e){return t==="error"?a:Reflect.get(r,t,e)}});export{f as t};

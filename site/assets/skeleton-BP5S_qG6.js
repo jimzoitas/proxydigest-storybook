@@ -1,0 +1,1 @@
+import{j as s,g as n}from"./iframe-BXubdNpd.js";function t({className:e,...o}){return s.jsx("div",{className:n("pf-skeleton",e),...o})}t.__docgenInfo={description:"",methods:[],displayName:"Skeleton"};export{t as S};

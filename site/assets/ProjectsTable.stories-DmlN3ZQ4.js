@@ -1,0 +1,77 @@
+import{ax as N,j as y,aX as H,u as q,a as z,bD as K,r as Q,bE as X,i as Z,bF as Y,bG as L}from"./iframe-BXubdNpd.js";import{D as $}from"./use-table-state-persistence-BtN6BHp1.js";import{P as D}from"./ProjectsTable-ms336vra.js";import"./preload-helper-PPVm8Dsz.js";import"./index-BEZPnK_w.js";import"./table-core-Ca6a3jZ5.js";import"./table-body-BvUfbW0X.js";import"./table-CvMvtWbQ.js";import"./row-context-menu-CLmGQMPa.js";import"./context-menu-BnFk_3DL.js";import"./menu-B8QO56XI.js";import"./CompositeItem-CBKa8E3y.js";import"./useCompositeItem-Bi8YYZ7L.js";import"./Separator-DI4aBzER.js";import"./chevron-right-Bt7v18gP.js";import"./circle-COTDYbAV.js";import"./helpers-BIKk5uC9.js";import"./table-footer-bpUr5wB2.js";import"./button-DOg3bB7T.js";import"./index-DKWiT4Fi.js";import"./loader-circle-WJxMtqtu.js";import"./chevrons-right-BT3DzgxX.js";import"./chevron-left-fIYzLx4k.js";import"./table-header-B8vkFacb.js";import"./dropdown-menu-DwRzzotf.js";import"./arrow-up-rNA4Ak0z.js";import"./arrow-down-DuMcTZnk.js";import"./arrow-up-down-CenL50-y.js";import"./eye-off-DIrC5lOf.js";import"./panel-left-C46OxOcL.js";import"./panel-right-BUYUOGDs.js";import"./pin-off-l_t5N1id.js";import"./ellipsis-LPZ0y5bO.js";import"./table-cell-view-C4zuEXUR.js";import"./table-BVVgfhwV.js";import"./index-B8f7Yysh.js";import"./index-DRlY9EGU.js";import"./table-cell-edit-BV5IGW_u.js";import"./input-BWeqiJDe.js";import"./index.module-B6UitgKw.js";import"./textarea-DKtx55-C.js";import"./output-ingredient-cell-DTu5zUOU.js";import"./provider-CjR5TBRf.js";import"./v4-EwEgHOG0.js";import"./IngredientModalTrigger-CHHztcDO.js";import"./tooltip-core-CGhIyYC9.js";import"./file-text-P-Na7IsX.js";import"./use-api-xoGr-U7J.js";import"./jsonApiHandler-4nyzgRht.js";import"./request-TLnfbZnK.js";import"./trackPosthogEvent-CBk16WCm.js";import"./apiUrl-o8N8i6mn.js";import"./component-name-with-external-id-aROyNQhu.js";import"./ingredientExternalId-DmZUVRZ9.js";import"./number-field-BX-ukorA.js";import"./component-ingredient-cell-Cmcg1Ae3.js";import"./GlobalSearchModal-BhbQVhlq.js";import"./dialog-Gbr7wu8m.js";import"./overlay-dialog-CQZe9RQv.js";import"./index.es-Cv4oNgR4.js";import"./use-paginated-api-D8Vkcu94.js";import"./skeleton-BP5S_qG6.js";import"./toggle-group-D27B5ejm.js";import"./roving-focus-0SK5-Aqb.js";import"./CompositeRoot-DuK6i5O1.js";import"./cooking-pot-pwofiaYQ.js";import"./badge-C4iUsAGF.js";import"./file-spreadsheet-Vw_HRQ61.js";import"./SearchByConfig-f3D-_Ft_.js";import"./search-combobox-wrapper-CsYvgqAX.js";import"./search-combobox-base-DpzvEg6P.js";import"./chevrons-up-down-CHE9Wbz7.js";import"./search-combobox-server-Dj6Mk73t.js";import"./plus-BS0_boJY.js";import"./useFocusNextColumn-Jwd_d-St.js";import"./check-check-DlG0rS8u.js";import"./initial-ingredient-cell-BG8MjGft.js";import"./multi-select-cell-nxYhjYLo.js";import"./circle-alert-BkX69rZ4.js";import"./truncated-markdown-BkdrxsMN.js";import"./encodeBlobUrl-FLx_wV7M.js";import"./document-mention-D8YQlX_5.js";import"./markdown-table-DgN-cEBS.js";import"./table-cell-sizing-CT2Y4_1Z.js";import"./index-BXGHVmqw.js";import"./index-D-ztsl9H.js";import"./index-Cx-C-_RM.js";import"./index-8G61PpGJ.js";import"./use-text-truncation-HniOEG3M.js";import"./table-checkbox-CmecTxYA.js";import"./checkbox-R9lg0Zy-.js";import"./minus-BU5OS2V8.js";import"./useAriaLabelledBy-Dlr4qUIQ.js";import"./table-legend-DgYLGqbx.js";import"./columns-3-CSznU4bw.js";import"./eye-Di9AoZkI.js";import"./table-floating-actions-content-SgySyzgh.js";import"./table-floating-actions-BUsvbVbg.js";import"./proxy-C-AB1_6R.js";import"./loader-8YCL35lt.js";import"./download-Bw2ymobo.js";import"./trash-2-BiFYt1e5.js";import"./separator-BKKMk4Xo.js";import"./form-CNzkM0u6.js";import"./label-B-ScEoCq.js";import"./sonner-DorDIDGc.js";import"./icons-B9RA1GX8.js";import"./collapsible-BboTV2_X.js";import"./useCollapsiblePanel-C5JKJn3w.js";import"./table-empty-state-Dec7JMnS.js";import"./proxy-ai-qmhPwT9V.js";import"./SidebarSection-BcPh9Ke7.js";import"./ExpandableTextTrigger-CaPE-zBF.js";import"./search-field-DLF5WVFc.js";import"./sheet-C-ICznI3.js";import"./link-CkdKlHel.js";import"./GradientButton-KU-jgc31.js";import"./input-field-DuMzWZ-u.js";import"./GradientIcon-Bb0JhmPS.js";import"./InfoAlert-Hu-KbKIZ.js";import"./circle-x-Dpw0IbmW.js";import"./circle-check-big-Di0Hj0Q7.js";import"./triangle-alert-BGpQ_lRK.js";import"./info-CdrzFsvH.js";import"./EmptyState-DCD9wIrq.js";import"./StatusIndicator-Cx5rgCHr.js";import"./QuickActionCard-BETlFEdB.js";import"./search-x-C2yC8CUZ.js";import"./chip-list-cell-DkGgNceW.js";import"./faceted-filter-CkmRgI-t.js";import"./accordion-B-A_a53W.js";import"./circle-plus-D3OehnXk.js";import"./server-side-faceted-filter-BhNJLuvQ.js";import"./tree-faceted-filter-DrJAy0rH.js";import"./index-CUx3qPLd.js";import"./folder-75hp4uO8.js";import"./box-BE4yTrmz.js";import"./list-chevrons-up-down-DmooE8iQ.js";import"./numeric-range-filter-epg-VdG7.js";import"./date-time-filter-B5dE5sVu.js";import"./calendar-BP-114aW.js";import"./calendar-Csa6w4tT.js";import"./server-date-time-filter-Cuy1MMrC.js";import"./delete-buttons-_uX2R-T2.js";import"./pencil-yy7xBAIJ.js";import"./dialog-core-c-ZvTlkW.js";/* empty css                            */import"./cancel-button-BwsmnV3v.js";import"./reset-filters-button-DNgXSPFN.js";import"./PermissionIcons-Cq_O7JDL.js";import"./roleColors-C3j0TQHu.js";import"./user-star-PqjnOx4C.js";import"./filter-search-swap-CIwIgu3M.js";import"./utils-BtucuksY.js";import"./sliders-horizontal-CF2Jch66.js";import"./bulk-actions-toolbar-Hr5ZGRmn.js";import"./owner-filter-VNI7w-mh.js";/* empty css                     */import"./use-server-table-filters-CEosobv9.js";import"./use-toolbar-bulk-selection-k3bbM6b3.js";import"./use-permissions-CoEJ2R_X.js";import"./trash-DGTZHlCy.js";import"./layers-CNa7rqq9.js";const{expect:ee,screen:I,userEvent:k,waitFor:te,within:U}=__STORYBOOK_MODULE_TEST__,v={update:!0,delete:!0,admin:!0},T={update:!0,delete:!0,admin:!1},A={update:!1,delete:!1,admin:!1},P="user-jamie-0002",o=(e,t,a,r,s,f=N.userId)=>({id:String(e),name:t,description:a,specification:null,createdBy:f,createdAt:r,updatedAt:r.replace(/T\d\d/,"T16"),meta:{permissions:s}}),V=[o(7,"Gut-health snack line","A clean-label granola bite with prebiotic fibre that scales from benchtop to pilot by Q3.","2026-09-18T09:12:00Z",v),o(9,"Plant-based barista oat drink","Foamable oat base for coffee bars: neutral taste, stable microfoam, no added sugar.","2026-09-10T11:40:00Z",T),o(12,"Reduced-sugar kids yoghurt","Fermented dairy alternative for 3–6 year olds, under 5 g sugar per 100 g.","2026-08-29T14:05:00Z",v),o(15,"Cultured cashew cheese platform","Spreadable and sliceable formats from one cultured cashew base.","2026-08-21T08:30:00Z",A,P),o(18,"High-protein red lentil pasta","Gluten-free fusilli and penne with 20 g protein per serving.","2026-08-02T10:15:00Z",T),o(21,"Seaweed snack exploration","Rice crackers with nori and sesame for the APAC pilot.","2026-07-24T15:50:00Z",A,P),o(24,"Clean-label sauce base","Emulsified sauce base without modified starches or gums.","2026-07-03T09:00:00Z",T,P),o(27,"Sparkling functional beverage","Low-calorie sparkling drink with adaptogens and natural flavours.","2026-06-17T13:20:00Z",v)],re=Array.from({length:26},(e,t)=>o(100+t,`Line extension ${String(t+1).padStart(2,"0")}`,t%2===0?"Seasonal flavour variant of an existing recipe.":"Cost-down reformulation for the retail channel.",new Date(Date.UTC(2026,8,26-t,9,0)).toISOString(),t%3===0?A:T)),B=V.filter(e=>e.createdBy!==N.userId),E=(e,t,a)=>{const r=e.find(s=>s.name===t&&s.op===a)?.val;return typeof r=="string"&&r!==""?r:void 0},O=(e,t)=>String(Object.entries(e).find(([a])=>a===t)?.[1]??"");function oe({rows:e,resolveFetch:t,delay:a}){const r=q(),{isLoading:s,tableProjectsServerParams:f}=z(K);return Q.useEffect(()=>{if(!s||!t)return;const G=window.setTimeout(()=>{const{pageIndex:J=0,pageSize:j=10,sort:M=[],filters:S=[]}=f,R=E(S,Y,"ilike")?.replace(/%/g,"").toLowerCase(),x=E(S,L,"gt"),_=E(S,L,"lt");let i=e.filter(n=>(!R||n.name.toLowerCase().includes(R))&&(!x||n.createdAt>=x)&&(!_||n.createdAt<=_));const[w]=M;w&&(i=[...i].sort((n,W)=>{const F=O(n,w.id).localeCompare(O(W,w.id));return w.desc?-F:F}));const C=J*j;r(X({data:i.slice(C,C+j),meta:{totalCount:i.length,totalPages:Math.ceil(i.length/j)}}))},a);return()=>window.clearTimeout(G)},[a,r,s,t,e,f]),null}const so={title:"Product examples/Projects/ProjectsTable",id:"modules-projects-projectstable",component:D,tags:["autodocs"],excludeStories:["projectRows","ProjectsSagaStub"],render:e=>y.jsxs(y.Fragment,{children:[y.jsx(oe,{...e}),y.jsx(D,{})]}),parameters:{layout:"fullscreen",route:"/projects",docs:{description:{component:"The `/projects` list: a server-paginated TableCore over `projects.projectsList` (name, description, permission icons, priority, status, hidden created/updated dates), table state persisted in sessionStorage, row click to `/projects/:id/`, a kebab with View / Edit (project side sheet) / Delete, per-row selection and bulk delete gated by `canPerformAction`, DialogCore confirmations. The created-date filter lives in `ProjectsFilterPanel` (left panel) and search, filter summary and column customizer in `ProjectsToolbar`, both fed by `useProjectsFilters`. On `?mainTab=shared` it neither fetches nor shows checkboxes. 1 importer: `src/modules/Projects/Projects.tsx`. Source: `src/modules/Projects/ProjectsTable/ProjectsTable.tsx`."}}},args:{rows:V,resolveFetch:!0,delay:150},argTypes:{rows:{control:!1,table:{category:"Saga stand-in"}},resolveFetch:{control:"boolean",table:{category:"Saga stand-in"}},delay:{control:{type:"number",min:0,step:50},table:{category:"Saga stand-in"}}}},p={},c={parameters:{store:{preloadedState:{members:{userTenantPermissions:H}}}}},m={args:{resolveFetch:!1},parameters:{route:"/projects?mainTab=shared",store:{preloadedState:{projects:{projectsList:B,totalCount:B.length,totalPages:1}}}}},l={args:{resolveFetch:!1}},d={args:{rows:[]}},u={args:{rows:re}},h={play:async({canvasElement:e})=>{const t=U(e);await k.click(await t.findByTestId("projects-table-action-menu-button-7")),await k.click(await I.findByRole("menuitem",{name:Z.t("projects:projectsTable.menuItems.delete")})),await I.findByRole("dialog")}},g={play:async({canvasElement:e})=>{const t=U(e);await t.findByText("Gut-health snack line"),await k.click(t.getByLabelText(Z.t("common:table.accessibility.selectAllRows"))),await te(()=>ee(e.querySelector('[data-bulk-action="delete"]')).not.toBeNull())}},b={beforeEach:()=>{const e="table-state:projects";return sessionStorage.setItem(e,JSON.stringify({...$,filters:[{name:"createdAt",op:"gt",val:"2026-08-01T00:00:00.000"},{name:"createdAt",op:"lt",val:"2026-09-30T23:59:59.999"}]})),()=>sessionStorage.removeItem(e)}};p.parameters={...p.parameters,docs:{...p.parameters?.docs,source:{originalSource:"{}",...p.parameters?.docs?.source},description:{story:"`ProjectsContainer`: an admin's project list with owned, editable and view-only projects.",...p.parameters?.docs?.description}}};c.parameters={...c.parameters,docs:{...c.parameters?.docs,source:{originalSource:`{
+  parameters: {
+    store: {
+      preloadedState: {
+        members: {
+          userTenantPermissions: viewerTenantPermissions
+        }
+      }
+    }
+  }
+}`,...c.parameters?.docs?.source},description:{story:"A viewer (`can_read` only): kebabs offer View only, except on projects the user was granted resource-level update/delete on, which are also the only selectable rows.",...c.parameters?.docs?.description}}};m.parameters={...m.parameters,docs:{...m.parameters?.docs,source:{originalSource:`{
+  args: {
+    resolveFetch: false
+  },
+  parameters: {
+    route: "/projects?mainTab=shared",
+    store: {
+      preloadedState: {
+        projects: {
+          projectsList: sharedRows,
+          totalCount: sharedRows.length,
+          totalPages: 1
+        }
+      }
+    }
+  }
+}`,...m.parameters?.docs?.source},description:{story:"`?mainTab=shared`: no fetch and no checkboxes; the table shows the list already in the slice.",...m.parameters?.docs?.description}}};l.parameters={...l.parameters,docs:{...l.parameters?.docs,source:{originalSource:`{
+  args: {
+    resolveFetch: false
+  }
+}`,...l.parameters?.docs?.source},description:{story:"The first fetch in flight: skeleton rows under the toolbar.",...l.parameters?.docs?.description}}};d.parameters={...d.parameters,docs:{...d.parameters?.docs,source:{originalSource:`{
+  args: {
+    rows: []
+  }
+}`,...d.parameters?.docs?.source},description:{story:`No projects in the tenant yet: TableCore's "No results." row.`,...d.parameters?.docs?.description}}};u.parameters={...u.parameters,docs:{...u.parameters?.docs,source:{originalSource:`{
+  args: {
+    rows: manyProjects
+  }
+}`,...u.parameters?.docs?.source},description:{story:"26 projects: the pagination footer pages through the stand-in's results.",...u.parameters?.docs?.description}}};h.parameters={...h.parameters,docs:{...h.parameters?.docs,source:{originalSource:`{
+  play: async ({
+    canvasElement
+  }) => {
+    const canvas = within(canvasElement);
+    await userEvent.click(await canvas.findByTestId("projects-table-action-menu-button-7"));
+    await userEvent.click(await screen.findByRole("menuitem", {
+      name: i18n.t("projects:projectsTable.menuItems.delete")
+    }));
+    await screen.findByRole("dialog");
+  }
+}`,...h.parameters?.docs?.source},description:{story:"Kebab → Delete on the first project: the single-delete DialogCore naming the project.",...h.parameters?.docs?.description}}};g.parameters={...g.parameters,docs:{...g.parameters?.docs,source:{originalSource:`{
+  play: async ({
+    canvasElement
+  }) => {
+    const canvas = within(canvasElement);
+    await canvas.findByText("Gut-health snack line");
+    await userEvent.click(canvas.getByLabelText(i18n.t("common:table.accessibility.selectAllRows")));
+    await waitFor(() => expect(canvasElement.querySelector('[data-bulk-action="delete"]')).not.toBeNull());
+  }
+}`,...g.parameters?.docs?.source},description:{story:"Every row selected through the header checkbox: the toolbar swaps to the bulk action bar with its Delete action.",...g.parameters?.docs?.description}}};b.parameters={...b.parameters,docs:{...b.parameters?.docs,source:{originalSource:`{
+  // The table restores its params from sessionStorage on mount, so preloaded slice filters would be wiped.
+  beforeEach: () => {
+    const key = "table-state:projects";
+    sessionStorage.setItem(key, JSON.stringify({
+      ...DEFAULT_TABLE_STATE,
+      filters: [{
+        name: "createdAt",
+        op: "gt",
+        val: "2026-08-01T00:00:00.000"
+      }, {
+        name: "createdAt",
+        op: "lt",
+        val: "2026-09-30T23:59:59.999"
+      }]
+    }));
+    return () => sessionStorage.removeItem(key);
+  }
+}`,...b.parameters?.docs?.source},description:{story:"A created-date range already applied: the toggle and summary show one active filter and the stand-in narrows the rows.",...b.parameters?.docs?.description}}};const io=["projectRows","ProjectsSagaStub","InProjectsPage","AsViewer","SharedTab","Loading","Empty","Paginated","DeleteConfirmation","WithSelectedRows","WithActiveFilters"];export{c as AsViewer,h as DeleteConfirmation,d as Empty,p as InProjectsPage,l as Loading,u as Paginated,oe as ProjectsSagaStub,m as SharedTab,b as WithActiveFilters,g as WithSelectedRows,io as __namedExportsOrder,so as default,V as projectRows};
