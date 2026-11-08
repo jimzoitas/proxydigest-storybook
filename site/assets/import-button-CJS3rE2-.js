@@ -1,0 +1,1 @@
+import{e as s,j as t}from"./iframe-AqpYXns4.js";import{B as n}from"./button-B5FjjXWS.js";import{F as i}from"./file-DX0gzaaz.js";function r(){const{t:o}=s("common");return t.jsxs(n,{variant:"outline",size:"sm",children:[t.jsx(i,{className:"pf-table-import-action-icon"}),o("buttons.import")]})}r.__docgenInfo={description:"",methods:[],displayName:"ImportButton"};export{r as I};

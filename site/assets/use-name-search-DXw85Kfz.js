@@ -1,0 +1,1 @@
+import{r as t}from"./iframe-AqpYXns4.js";import{u as n}from"./use-api-DWwVMkDM.js";function p(a){const{apiRequest:e}=n();return t.useCallback(async s=>((await e({url:a,params:{filters:[{name:"name",op:"ilike",val:`%${s}%`}]}}))?.data??[]).map(r=>({label:r.name,value:r.id.toString()})),[e,a])}export{p as u};

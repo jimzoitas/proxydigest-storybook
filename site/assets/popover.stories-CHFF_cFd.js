@@ -1,0 +1,26 @@
+import{j as e,bC as g,r as l,bD as b,bE as v,bF as f,bG as j,dh as k,bJ as w}from"./iframe-AqpYXns4.js";import{B as O}from"./button-B5FjjXWS.js";import{L as C}from"./label-1kzVJgIY.js";import{I as S}from"./input-DLCq6ZzS.js";import{P as E}from"./catalog.examples-zcZL5Oir.js";import"./dialog-DnXWbC45.js";import"./preload-helper-PPVm8Dsz.js";import"./index-DEXj3--c.js";import"./loader-circle-mWFWE2W9.js";import"./textarea-uF5bUZhh.js";import"./checkbox-TIyFUyNd.js";import"./minus-0yDLMIrp.js";import"./useAriaLabelledBy-Da9KhbUQ.js";import"./switch-Dq-T1JeF.js";import"./radio-group-BybVJGC9.js";import"./roving-focus-0SK5-Aqb.js";import"./CompositeRoot-yL7bK7Jd.js";import"./circle-Dg6ojZlj.js";import"./CompositeItem-D1wyjQOR.js";import"./useCompositeItem-QlszIeBN.js";import"./slider-BaUfZmPE.js";import"./valueToPercent-DfWH2vGw.js";import"./toggle-group-DO0OQdfk.js";import"./card-ByHHR2Jw.js";import"./badge-CQKobhLs.js";import"./alert-vS_dpmu2.js";import"./avatar-DTkZwYDb.js";import"./separator-C7Zm_6nS.js";import"./Separator-DssPvI5G.js";import"./skeleton-C_SNY4zC.js";import"./progress-CmLHBdmj.js";import"./tabs-D2cBF9Wg.js";import"./accordion-B6UeQwZ6.js";import"./accordion-0FBKGPj-.js";import"./useCollapsiblePanel-DOTGH3aY.js";import"./collapsible-DZyMQ3Bu.js";import"./sheet-dNUUpp2U.js";import"./overlay-dialog-aVFq0bEi.js";import"./alert-dialog-DbGCTr1F.js";import"./hover-card-sY2GMIgd.js";import"./dropdown-menu-qZhg1f8R.js";import"./menu-DaKubz4c.js";import"./chevron-right-B3hyZT-D.js";import"./context-menu-B8gpNJM6.js";import"./calendar-V3NmEFls.js";import"./chevron-left-DLgfJc_O.js";import"./resizable-YZsVPkgn.js";import"./grip-vertical-Dizk5hed.js";import"./table-DOkc2t6b.js";import"./search-field-Geq7aFHv.js";import"./index.module-B2X8Wkxy.js";const{expect:d,userEvent:c,within:u}=__STORYBOOK_MODULE_TEST__;function P({side:t,align:n,layout:o,...r}){const[h,m]=l.useState(r.defaultOpen??!1),[x,y]=l.useState("No project selected");return e.jsxs(e.Fragment,{children:[e.jsxs(g,{...r,open:h,onOpenChange:m,children:[e.jsx(b,{asChild:!0,children:e.jsx(O,{variant:"outline",children:o==="picker"?"Choose project":"Recipe options"})}),e.jsx(v,{side:t,align:n,layout:o,children:o==="picker"?e.jsxs(f,{children:[e.jsx(j,{placeholder:"Search projects","aria-label":"Search projects"}),e.jsx(k,{children:["Oat drinks","Plant-based yogurt"].map(p=>e.jsx(w,{onSelect:()=>{y(p),m(!1)},children:p},p))})]}):e.jsxs(e.Fragment,{children:[e.jsx(C,{htmlFor:"family-popover-label",children:"Label"}),e.jsx(S,{id:"family-popover-label",defaultValue:"Development"})]})})]}),o==="picker"&&e.jsx("output",{"aria-label":"Selected project",children:x})]})}const Se={title:"Components/Surfaces/Popover",component:g,tags:["autodocs"],parameters:{layout:"padded",controls:{include:["defaultOpen","side","align","layout"]},docs:{description:{component:"Anchored interactive content. Root open/onOpenChange owns visibility; Content owns side, align and collision handling. Content layout is padded by default. Use layout=picker for a compact 16rem Command surface: the nested search and options own their insets. It changes only width and padding, preserving placement, portal, keyboard selection, dismissal and focus return. Use Tooltip for a noninteractive description and Dialog for a modal task. Surface tokens style the container; nested controls keep their own token ownership."}}},render:t=>e.jsx(P,{...t},`${t.defaultOpen}-${t.layout}`),args:{defaultOpen:!1,side:"bottom",align:"center",layout:"content"},argTypes:{defaultOpen:{control:"boolean"},side:{control:"select",options:["top","right","bottom","left"]},align:{control:"select",options:["start","center","end"]},layout:{control:"inline-radio",options:["content","picker"]}}},a={},i={...E},s={args:{layout:"picker",align:"start"},play:async({canvasElement:t})=>{const n=u(t),o=u(t.ownerDocument.body),r=n.getByRole("button",{name:"Choose project"});await c.click(r),await c.type(o.getByRole("combobox",{name:"Search projects"}),"Oat"),await c.click(o.getByRole("option",{name:"Oat drinks"})),await d(n.getByLabelText("Selected project")).toHaveTextContent("Oat drinks"),await d(r).toHaveFocus()}};a.parameters={...a.parameters,docs:{...a.parameters?.docs,source:{originalSource:"{}",...a.parameters?.docs?.source}}};i.parameters={...i.parameters,docs:{...i.parameters?.docs,source:{originalSource:`{
+  ...Popovers
+}`,...i.parameters?.docs?.source}}};s.parameters={...s.parameters,docs:{...s.parameters?.docs,source:{originalSource:`{
+  args: {
+    layout: "picker",
+    align: "start"
+  },
+  play: async ({
+    canvasElement
+  }) => {
+    const canvas = within(canvasElement);
+    const page = within(canvasElement.ownerDocument.body);
+    const trigger = canvas.getByRole("button", {
+      name: "Choose project"
+    });
+    await userEvent.click(trigger);
+    await userEvent.type(page.getByRole("combobox", {
+      name: "Search projects"
+    }), "Oat");
+    await userEvent.click(page.getByRole("option", {
+      name: "Oat drinks"
+    }));
+    await expect(canvas.getByLabelText("Selected project")).toHaveTextContent("Oat drinks");
+    await expect(trigger).toHaveFocus();
+  }
+}`,...s.parameters?.docs?.source}}};const Ee=["Playground","ExistingExample","Picker"];export{i as ExistingExample,s as Picker,a as Playground,Ee as __namedExportsOrder,Se as default};
