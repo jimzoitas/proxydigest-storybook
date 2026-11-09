@@ -1,0 +1,5 @@
+import{j as e,ar as r,at as c}from"./iframe-DgvZnKtv.js";import{useMDXComponents as s}from"./index-Due16PTG.js";import{a as i,s as a}from"./skill-document-BNFLx3tj.js";import"./preload-helper-PPVm8Dsz.js";function n(t){const o={code:"code",p:"p",...s(),...t.components};return e.jsxs(e.Fragment,{children:[e.jsx(r,{title:"Guidance/Skills/References/Repository Contracts"}),`
+`,e.jsx(o.p,{children:"Complete repository-owned instructions. Current user instructions and root/nested repository guidance take precedence. Inclusion here does not claim that this workflow or all its checks have been executed."}),`
+`,e.jsxs(o.p,{children:["Source: ",e.jsx(o.code,{children:"skills/references/repository-contracts.md"}),"."]}),`
+`,e.jsx("a",{href:"./?path=/docs/guidance-skills-overview--docs",target:"_top",children:"Skills overview"}),`
+`,e.jsx(c,{options:a,children:i("skills/references/repository-contracts.md")})]})}function m(t={}){const{wrapper:o}={...s(),...t.components};return o?e.jsx(o,{...t,children:e.jsx(n,{...t})}):n(t)}export{m as default};

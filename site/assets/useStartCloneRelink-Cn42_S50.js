@@ -1,1 +1,0 @@
-import{u as o,r as e,bu as n}from"./iframe-6uZ_OvXJ.js";import{C as p}from"./cloneRelink.options-Bhm7qUOK.js";function l(t){const s=o();return{startClone:e.useCallback((a,r=p)=>{s(n({source:a,entryPoint:t,action:r}))},[s,t])}}export{l as u};

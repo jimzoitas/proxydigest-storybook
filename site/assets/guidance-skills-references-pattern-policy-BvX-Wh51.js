@@ -1,5 +1,0 @@
-import{j as e,au as r,aw as i}from"./iframe-6uZ_OvXJ.js";import{useMDXComponents as s}from"./index-D1Iyl5ZL.js";import{a as c,s as a}from"./skill-document-FipH1P8s.js";import"./preload-helper-PPVm8Dsz.js";function o(n){const t={code:"code",p:"p",...s(),...n.components};return e.jsxs(e.Fragment,{children:[e.jsx(r,{title:"Guidance/Skills/References/Pattern Policy"}),`
-`,e.jsx(t.p,{children:"Complete repository-owned instructions. Current user instructions and root/nested repository guidance take precedence. Inclusion here does not claim that this workflow or all its checks have been executed."}),`
-`,e.jsxs(t.p,{children:["Source: ",e.jsx(t.code,{children:"skills/references/pattern-policy.md"}),"."]}),`
-`,e.jsx("a",{href:"./?path=/docs/guidance-skills-overview--docs",target:"_top",children:"Skills overview"}),`
-`,e.jsx(i,{options:a,children:c("skills/references/pattern-policy.md")})]})}function m(n={}){const{wrapper:t}={...s(),...n.components};return t?e.jsx(t,{...n,children:e.jsx(o,{...n})}):o(n)}export{m as default};

@@ -1,0 +1,5 @@
+import{j as e,ar as r,at as i}from"./iframe-DgvZnKtv.js";import{useMDXComponents as s}from"./index-Due16PTG.js";import{a,s as l}from"./skill-document-BNFLx3tj.js";import"./preload-helper-PPVm8Dsz.js";function t(o){const n={code:"code",p:"p",...s(),...o.components};return e.jsxs(e.Fragment,{children:[e.jsx(r,{title:"Guidance/Skills/Repository/Preview Env"}),`
+`,e.jsx(n.p,{children:"Complete repository Azure deployment workflow. It is separate from the isolated local demo and does not authorize any deployment, commit, push or service change. Current branch and publication restrictions still apply."}),`
+`,e.jsxs(n.p,{children:["Source: ",e.jsx(n.code,{children:".claude/skills/preview-env/SKILL.md"}),"."]}),`
+`,e.jsx("a",{href:"./?path=/docs/guidance-skills-overview--docs",target:"_top",children:"Skills overview"}),`
+`,e.jsx(i,{options:l,children:a(".claude/skills/preview-env/SKILL.md")})]})}function u(o={}){const{wrapper:n}={...s(),...o.components};return n?e.jsx(n,{...o,children:e.jsx(t,{...o})}):t(o)}export{u as default};

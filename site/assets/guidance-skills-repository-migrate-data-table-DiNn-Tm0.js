@@ -1,5 +1,0 @@
-import{j as e,au as s,aw as r}from"./iframe-6uZ_OvXJ.js";import{useMDXComponents as a}from"./index-D1Iyl5ZL.js";import{a as i,s as l}from"./skill-document-FipH1P8s.js";import"./preload-helper-PPVm8Dsz.js";function n(t){const o={code:"code",p:"p",...a(),...t.components};return e.jsxs(e.Fragment,{children:[e.jsx(s,{title:"Guidance/Skills/Repository/Migrate Data Table"}),`
-`,e.jsx(o.p,{children:"Complete repository table workflow. Current group-token and authored-CSS guidance takes precedence over historical utility-class examples; preserve the shared engine and documented compatibility defaults."}),`
-`,e.jsxs(o.p,{children:["Source: ",e.jsx(o.code,{children:".claude/skills/migrate-data-table/SKILL.md"}),"."]}),`
-`,e.jsx("a",{href:"./?path=/docs/guidance-skills-overview--docs",target:"_top",children:"Skills overview"}),`
-`,e.jsx(r,{options:l,children:i(".claude/skills/migrate-data-table/SKILL.md")})]})}function u(t={}){const{wrapper:o}={...a(),...t.components};return o?e.jsx(o,{...t,children:e.jsx(n,{...t})}):n(t)}export{u as default};

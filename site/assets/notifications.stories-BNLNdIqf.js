@@ -1,0 +1,138 @@
+import{j as t,e2 as $,cq as F,g as W,r as K,a9 as E}from"./iframe-DgvZnKtv.js";import{B as k}from"./button-CEcYiQdY.js";import{T as N,a as C,b as D,c as I,d as L,e as O,f as H,g as V,t as U}from"./toaster-Pu3PkgBc.js";import{T as P}from"./sonner-DxnW1Ch1.js";import"./preload-helper-PPVm8Dsz.js";import"./index-BWlKOsdO.js";import"./loader-circle-BsZrs7F6.js";function q({className:e,style:a,gap:c=F["--group-feedback-pf-sonner-gap"],offset:o="var(--group-feedback-pf-sonner-viewport-offset)",mobileOffset:r="var(--group-feedback-pf-sonner-mobile-offset)",...p}){return t.jsx($,{...p,className:W("pf-application-toaster",e),gap:c,offset:o,mobileOffset:r,style:{"--width":"var(--group-feedback-pf-sonner-width)",...a}})}q.__docgenInfo={description:"The application's original Sonner delivery API and default-light scheme.",methods:[],displayName:"ApplicationToaster",props:{gap:{defaultValue:{value:'groupLengthDefaults["--group-feedback-pf-sonner-gap"]',computed:!0},required:!1},offset:{defaultValue:{value:'"var(--group-feedback-pf-sonner-viewport-offset)"',computed:!1},required:!1},mobileOffset:{defaultValue:{value:'"var(--group-feedback-pf-sonner-mobile-offset)"',computed:!1},required:!1}}};const{expect:n,fn:M,userEvent:s,waitFor:_,within:i}=__STORYBOOK_MODULE_TEST__;function R({variant:e,action:a,description:c,onAction:o}){const[r,p]=K.useState(!1);return t.jsxs(I,{duration:1/0,children:[t.jsx(k,{onClick:()=>p(!0),children:"Show notification"}),t.jsx("output",{"aria-label":"Notification open",children:String(r)}),t.jsxs(V,{open:r,onOpenChange:p,variant:e,children:[t.jsxs("div",{children:[t.jsx(D,{children:"Local example notification"}),t.jsx(L,{children:c})]}),a&&t.jsx(H,{altText:"Review the local example",onClick:o,children:"Review"}),t.jsx(O,{})]}),t.jsx(C,{})]})}const ee={title:"Components/Feedback/Notifications",component:R,subcomponents:{Toast:V,ToastAction:H,ToastClose:O,ToastDescription:L,ToastProvider:I,ToastTitle:D,ToastViewport:C,Toaster:N,SonnerToaster:P,ApplicationToaster:q},tags:["autodocs"],args:{variant:"default",action:!0,description:"This fixture has not saved or sent anything.",onAction:M()},argTypes:{variant:{control:"inline-radio",options:["default","success","destructive"]},onAction:{control:!1}},parameters:{docs:{description:{component:"The native notification composition with Base UI action controls, legacy hook Toaster, and Sonner adapter remain separate supported delivery APIs. Use a brief title, optional explanation and an action with useful altText; do not put a required decision in an expiring notification. Toast open/onOpenChange can be controlled, duration controls dismissal, swipeDirection/viewport hotkey follow the provider contract. A close control is named and focus visible. The hook Toaster consumes useToast's existing store; Sonner uses its own event store and optional toasterId. The production ApplicationToaster preserves the existing Sonner default-light scheme, richColors and delivery props; it binds the original frame and palette to Feedback tokens, with only four light foregrounds corrected for Normal AA. Its dark scheme is opt-in through the unchanged theme prop. The separate themed Sonner adapter retains its own supported styling. These adapters cannot share state without changing consumer contracts. Product success messages must follow an actual successful operation. All examples here explicitly report local fixtures only. Controls and action callbacks are live; permanent duration is fixture-only for inspection."}}},render:e=>t.jsx(R,{...e})},l=async e=>(await s.click(i(e).getByRole("button",{name:"Show notification"})),i(e.ownerDocument.body)),d={},m={play:async({canvasElement:e})=>{const a=await l(e);await n(a.getByText("Local example notification")).toBeVisible()}},u={args:{variant:"success"},play:async({canvasElement:e})=>{await l(e)}},f={args:{variant:"destructive"},play:async({canvasElement:e})=>{await l(e)}},y={args:{action:!1},play:async({canvasElement:e})=>{const a=await l(e);await n(a.queryByRole("button",{name:"Review"})).not.toBeInTheDocument()}},h={play:async({canvasElement:e,args:a})=>{(await l(e)).getByRole("button",{name:"Review"}).focus(),await s.keyboard("{Enter}"),await n(a.onAction).toHaveBeenCalledTimes(1)}},w={play:async({canvasElement:e})=>{const a=await l(e);await s.click(a.getByRole("button",{name:"Close"})),await n(i(e).getByLabelText("Notification open")).toHaveTextContent("false")}},x={render:()=>t.jsxs(t.Fragment,{children:[t.jsx(k,{onClick:()=>U({title:"Hook adapter example",description:"Local notification only."}),children:"Show hook notification"}),t.jsx(N,{})]}),play:async({canvasElement:e})=>{await s.click(i(e).getByRole("button",{name:"Show hook notification"}));const a=i(e.ownerDocument.body);await n(await a.findByText("Hook adapter example")).toBeVisible(),await s.click(a.getByRole("button",{name:"Close"}))}},g={render:()=>t.jsxs(t.Fragment,{children:[t.jsx(k,{onClick:()=>E("Sonner adapter example",{id:"family-notifications-example",toasterId:"family-notifications",description:"Local notification only.",duration:1/0}),children:"Show Sonner notification"}),t.jsx(P,{id:"family-notifications",closeButton:!0})]}),play:async({canvasElement:e})=>{await s.click(i(e).getByRole("button",{name:"Show Sonner notification"})),await n(await i(e).findByText("Sonner adapter example")).toBeVisible(),E.dismiss("family-notifications-example"),await _(()=>n(i(e).queryByText("Sonner adapter example")).not.toBeInTheDocument())}},v={render:e=>t.jsxs(t.Fragment,{children:[t.jsxs("ol",{children:[t.jsx("li",{children:"Provider owns timing, viewport and announcement behavior."}),t.jsx("li",{children:"Title and optional description convey a local event."}),t.jsx("li",{children:"Optional action names its purpose; independent close dismisses."})]}),t.jsx(R,{...e})]})},T={parameters:{docs:{description:{story:"The original toast primitives start open for anatomy inspection, with permanent fixture-only duration. The close action remains keyboard accessible and appears on hover/focus as in the product."}}},render:e=>t.jsxs(I,{duration:1/0,children:[t.jsxs(V,{defaultOpen:!0,variant:e.variant,"data-anatomy-notification":!0,children:[t.jsxs("div",{children:[t.jsx(D,{"data-anatomy-part":"title",children:"Local example notification"}),t.jsx(L,{"data-anatomy-part":"description",children:e.description})]}),e.action&&t.jsx(H,{altText:"Review the local example",onClick:e.onAction,children:"Review"}),t.jsx(O,{})]}),t.jsx(C,{})]})},j=e=>({parameters:{layout:"fullscreen",docs:{description:{story:"The actual production Sonner adapter. Descriptions and close controls inherit the checked rich message pair; action text uses the inverse neutral pair. No backend operation is represented."}}},render:a=>t.jsxs(t.Fragment,{children:[t.jsxs(k,{onClick:()=>E[e](`Application ${e} example`,{id:`application-${e}`,toasterId:`application-family-${e}`,description:a.description,duration:1/0,action:a.action?{label:"Review example",onClick:a.onAction}:void 0}),children:["Show application ",e]}),t.jsx(q,{id:`application-family-${e}`,richColors:!0,closeButton:!0})]}),play:async({canvasElement:a,args:c})=>{const o=i(a);await s.click(o.getByRole("button",{name:`Show application ${e}`}));const r=await o.findByText(`Application ${e} example`);await n(r.closest("[data-sonner-toast]")).toHaveAttribute("data-type",e),await n(r.closest("[data-sonner-toaster]")).toHaveAttribute("data-sonner-theme","light"),c.action&&await n(o.getByRole("button",{name:"Review example"})).toBeVisible(),o.getByRole("button",{name:"Close toast"}).focus(),await s.keyboard("{Enter}"),await _(()=>n(o.queryByText(`Application ${e} example`)).not.toBeInTheDocument())}}),b=j("success"),S=j("info"),B=j("warning"),A=j("error");d.parameters={...d.parameters,docs:{...d.parameters?.docs,source:{originalSource:"{}",...d.parameters?.docs?.source}}};m.parameters={...m.parameters,docs:{...m.parameters?.docs,source:{originalSource:`{
+  play: async ({
+    canvasElement
+  }) => {
+    const c = await show(canvasElement);
+    await expect(c.getByText("Local example notification")).toBeVisible();
+  }
+}`,...m.parameters?.docs?.source}}};u.parameters={...u.parameters,docs:{...u.parameters?.docs,source:{originalSource:`{
+  args: {
+    variant: "success"
+  },
+  play: async ({
+    canvasElement
+  }) => {
+    await show(canvasElement);
+  }
+}`,...u.parameters?.docs?.source}}};f.parameters={...f.parameters,docs:{...f.parameters?.docs,source:{originalSource:`{
+  args: {
+    variant: "destructive"
+  },
+  play: async ({
+    canvasElement
+  }) => {
+    await show(canvasElement);
+  }
+}`,...f.parameters?.docs?.source}}};y.parameters={...y.parameters,docs:{...y.parameters?.docs,source:{originalSource:`{
+  args: {
+    action: false
+  },
+  play: async ({
+    canvasElement
+  }) => {
+    const c = await show(canvasElement);
+    await expect(c.queryByRole("button", {
+      name: "Review"
+    })).not.toBeInTheDocument();
+  }
+}`,...y.parameters?.docs?.source}}};h.parameters={...h.parameters,docs:{...h.parameters?.docs,source:{originalSource:`{
+  play: async ({
+    canvasElement,
+    args
+  }) => {
+    const c = await show(canvasElement);
+    c.getByRole("button", {
+      name: "Review"
+    }).focus();
+    await userEvent.keyboard("{Enter}");
+    await expect(args.onAction).toHaveBeenCalledTimes(1);
+  }
+}`,...h.parameters?.docs?.source}}};w.parameters={...w.parameters,docs:{...w.parameters?.docs,source:{originalSource:`{
+  play: async ({
+    canvasElement
+  }) => {
+    const c = await show(canvasElement);
+    await userEvent.click(c.getByRole("button", {
+      name: "Close"
+    }));
+    await expect(within(canvasElement).getByLabelText("Notification open")).toHaveTextContent("false");
+  }
+}`,...w.parameters?.docs?.source}}};x.parameters={...x.parameters,docs:{...x.parameters?.docs,source:{originalSource:`{
+  render: () => <>
+      <Button onClick={() => legacyToast({
+      title: "Hook adapter example",
+      description: "Local notification only."
+    })}>
+        Show hook notification
+      </Button>
+      <Toaster />
+    </>,
+  play: async ({
+    canvasElement
+  }) => {
+    await userEvent.click(within(canvasElement).getByRole("button", {
+      name: "Show hook notification"
+    }));
+    const c = within(canvasElement.ownerDocument.body);
+    await expect(await c.findByText("Hook adapter example")).toBeVisible();
+    await userEvent.click(c.getByRole("button", {
+      name: "Close"
+    }));
+  }
+}`,...x.parameters?.docs?.source}}};g.parameters={...g.parameters,docs:{...g.parameters?.docs,source:{originalSource:`{
+  render: () => <>
+      <Button onClick={() => notify("Sonner adapter example", {
+      id: "family-notifications-example",
+      toasterId: "family-notifications",
+      description: "Local notification only.",
+      duration: Infinity
+    })}>
+        Show Sonner notification
+      </Button>
+      <SonnerToaster id="family-notifications" closeButton />
+    </>,
+  play: async ({
+    canvasElement
+  }) => {
+    await userEvent.click(within(canvasElement).getByRole("button", {
+      name: "Show Sonner notification"
+    }));
+    await expect(await within(canvasElement).findByText("Sonner adapter example")).toBeVisible();
+    notify.dismiss("family-notifications-example");
+    await waitFor(() => expect(within(canvasElement).queryByText("Sonner adapter example")).not.toBeInTheDocument());
+  }
+}`,...g.parameters?.docs?.source}}};v.parameters={...v.parameters,docs:{...v.parameters?.docs,source:{originalSource:`{
+  render: args => <>
+      <ol>
+        <li>Provider owns timing, viewport and announcement behavior.</li>
+        <li>Title and optional description convey a local event.</li>
+        <li>Optional action names its purpose; independent close dismisses.</li>
+      </ol>
+      <NotificationExample {...args} />
+    </>
+}`,...v.parameters?.docs?.source}}};T.parameters={...T.parameters,docs:{...T.parameters?.docs,source:{originalSource:`{
+  parameters: {
+    docs: {
+      description: {
+        story: "The original toast primitives start open for anatomy inspection, with permanent fixture-only duration. The close action remains keyboard accessible and appears on hover/focus as in the product."
+      }
+    }
+  },
+  render: args => <ToastProvider duration={Infinity}>
+      <Toast defaultOpen variant={args.variant} data-anatomy-notification>
+        <div>
+          <ToastTitle data-anatomy-part="title">
+            Local example notification
+          </ToastTitle>
+          <ToastDescription data-anatomy-part="description">
+            {args.description}
+          </ToastDescription>
+        </div>
+        {args.action && <ToastAction altText="Review the local example" onClick={args.onAction}>
+            Review
+          </ToastAction>}
+        <ToastClose />
+      </Toast>
+      <ToastViewport />
+    </ToastProvider>
+}`,...T.parameters?.docs?.source}}};b.parameters={...b.parameters,docs:{...b.parameters?.docs,source:{originalSource:'applicationStory("success")',...b.parameters?.docs?.source}}};S.parameters={...S.parameters,docs:{...S.parameters?.docs,source:{originalSource:'applicationStory("info")',...S.parameters?.docs?.source}}};B.parameters={...B.parameters,docs:{...B.parameters?.docs,source:{originalSource:'applicationStory("warning")',...B.parameters?.docs?.source}}};A.parameters={...A.parameters,docs:{...A.parameters?.docs,source:{originalSource:'applicationStory("error")',...A.parameters?.docs?.source}}};const te=["Playground","Default","Success","Destructive","WithoutAction","KeyboardAction","Dismiss","HookAdapter","SonnerAdapter","Anatomy","AnnotatedAnatomy","ApplicationSuccess","ApplicationInfo","ApplicationWarning","ApplicationError"];export{v as Anatomy,T as AnnotatedAnatomy,A as ApplicationError,S as ApplicationInfo,b as ApplicationSuccess,B as ApplicationWarning,m as Default,f as Destructive,w as Dismiss,x as HookAdapter,h as KeyboardAction,d as Playground,g as SonnerAdapter,u as Success,y as WithoutAction,te as __namedExportsOrder,ee as default};

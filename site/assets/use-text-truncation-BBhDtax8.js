@@ -1,0 +1,1 @@
+import{r as n}from"./iframe-DgvZnKtv.js";function a(c=[],r=!0){const e=n.useRef(null),[o,u]=n.useState(!1);return n.useEffect(()=>{const t=()=>{if(e.current&&r){const s=e.current;u(s.scrollWidth>s.clientWidth)}};return t(),window.addEventListener("resize",t),()=>window.removeEventListener("resize",t)},[...c,r]),{contentRef:e,isTruncated:o}}export{a as u};

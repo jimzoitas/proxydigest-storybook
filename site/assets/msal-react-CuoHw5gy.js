@@ -1,0 +1,1 @@
+import{j as e}from"./iframe-DgvZnKtv.js";function n({children:t}){return e.jsx(e.Fragment,{children:t})}n.__docgenInfo={description:"",methods:[],displayName:"AuthenticatedTemplate",props:{children:{required:!1,tsType:{name:"ReactNode"},description:""}}};export{n as A};

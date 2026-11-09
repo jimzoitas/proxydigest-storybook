@@ -1,0 +1,5 @@
+import{j as e,ar as r,at as i}from"./iframe-DgvZnKtv.js";import{useMDXComponents as n}from"./index-Due16PTG.js";import{a as c,s as a}from"./skill-document-BNFLx3tj.js";import"./preload-helper-PPVm8Dsz.js";function o(s){const t={code:"code",p:"p",...n(),...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(r,{title:"Guidance/Skills/Systemize Repo"}),`
+`,e.jsx(t.p,{children:"Complete repository-owned instructions. Current user instructions and root/nested repository guidance take precedence. Inclusion here does not claim that this workflow or all its checks have been executed."}),`
+`,e.jsxs(t.p,{children:["Source: ",e.jsx(t.code,{children:"skills/systemize-repo/SKILL.md"}),"."]}),`
+`,e.jsx("a",{href:"./?path=/docs/guidance-skills-overview--docs",target:"_top",children:"Skills overview"}),`
+`,e.jsx(i,{options:a,children:c("skills/systemize-repo/SKILL.md")})]})}function u(s={}){const{wrapper:t}={...n(),...s.components};return t?e.jsx(t,{...s,children:e.jsx(o,{...s})}):o(s)}export{u as default};

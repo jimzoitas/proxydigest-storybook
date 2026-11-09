@@ -1,0 +1,1 @@
+@layer pf-patterns{.pf-detail-section__root{display:flex;flex-direction:column;gap:var(--group-pattern-detail-content-pf-spacing-regular)}.pf-detail-section__header{display:flex;flex-direction:column;gap:var(--group-pattern-detail-content-pf-spacing-tight)}}

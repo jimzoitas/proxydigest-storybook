@@ -1,5 +1,0 @@
-import{j as e,au as r,aw as i}from"./iframe-6uZ_OvXJ.js";import{useMDXComponents as s}from"./index-D1Iyl5ZL.js";import{a as c,s as a}from"./skill-document-FipH1P8s.js";import"./preload-helper-PPVm8Dsz.js";function n(t){const o={code:"code",p:"p",...s(),...t.components};return e.jsxs(e.Fragment,{children:[e.jsx(r,{title:"Guidance/Skills/Create Layout"}),`
-`,e.jsx(o.p,{children:"Complete repository-owned instructions. Current user instructions and root/nested repository guidance take precedence. Inclusion here does not claim that this workflow or all its checks have been executed."}),`
-`,e.jsxs(o.p,{children:["Source: ",e.jsx(o.code,{children:"skills/create-layout/SKILL.md"}),"."]}),`
-`,e.jsx("a",{href:"./?path=/docs/guidance-skills-overview--docs",target:"_top",children:"Skills overview"}),`
-`,e.jsx(i,{options:a,children:c("skills/create-layout/SKILL.md")})]})}function p(t={}){const{wrapper:o}={...s(),...t.components};return o?e.jsx(o,{...t,children:e.jsx(n,{...t})}):n(t)}export{p as default};
